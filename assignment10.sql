@@ -27,7 +27,5 @@ create table Department(
     ID int,
     DepID int,
     Title varchar(30),
-    Subordinates SET,
-
-
+    Subordinates SET
 )
